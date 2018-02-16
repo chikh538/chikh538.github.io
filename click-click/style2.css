@@ -1,0 +1,105 @@
+  body {
+      background-color: white;
+      margin: 50px;
+      margin-top: 250px;
+  }
+
+  h1 {
+      color: black;
+      text-align: center;
+      font-family: "Helvetica", serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    blockquote {
+
+      color: black;
+      font-family: "Helvetica", serif;
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 280px;
+      margin-left: 880px;
+
+    }
+
+  a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+  }
+
+  a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+.previous {
+      position: absolute;
+      transition: .5s ease;
+      top: 45%;
+      left: 10%;
+      background-color: #f1f1f1;
+      color: black;
+
+  }
+
+.next {
+      position: absolute;
+      transition: .5s ease;
+      top: 45%;
+      right: 10%;
+      background-color: #f1f1f1;
+      color: black;
+  }
+
+  .round {
+      border-radius: 50%;
+  }
+
+  .typewriter h1 {
+    color: #black;
+    font-family: Helvetica;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-top:-80px;
+    letter-spacing: .01em; /* Adjust as needed */
+    animation:
+      typing 15s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 20% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+
+
+/* stay a from people’s: */
+font-family: Helvetica-Bold;
+font-size: 64px;
+color: #000000;
+/* w: */
+transform: rotate(20deg);
+font-family: Helvetica-Bold;
+font-size: 64px;
+color: #000000;
+/* a: */
+transform: rotate(60deg);
+font-family: Helvetica-Bold;
+font-size: 64px;
+color: #000000;
+/* y: */
+transform: rotate(90deg);
+font-family: Helvetica-Bold;
+font-size: 64px;
+color: #000000;

@@ -1,0 +1,84 @@
+h1 {
+  font-size: 20px;
+  font-family: "Helvetica", serif;
+  color: black;
+  text-align: center;
+  margin-top: 280px;
+}
+
+.text:hover {
+  font-size: 20px;
+  font-family: "Helvetica", serif;
+  font-weight: bold;
+  -webkit-transform:scale(.3);
+  -moz-transform:scale(.3);
+  -ms-transform:scale(.3);
+  -o-transform:scale(.3);
+  transform:scale(.3);
+  -webkit-transition:all 0.9s ease-out;
+  -moz-transition:all 0.9s ease-out;
+  -ms-transition:all 0.9s ease-out;
+  -o-transition:all 0.9s ease-out;
+  transition:all 0.9s ease-out;
+}
+
+.shrink{
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.shrink:hover {
+  -webkit-transform:scale(.7);
+  -moz-transform:scale(.7);
+  -ms-transform:scale(.7);
+  -o-transform:scale(.7);
+  transform:scale(.7);
+}
+
+blockquote {
+
+  color: black;
+  font-family: "Helvetica", serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 270px;
+  margin-left: 920px;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.previous {
+    position: absolute;
+    transition: .5s ease;
+    top: 45%;
+    left: 10%;
+    background-color: #f1f1f1;
+    color: black;
+
+}
+
+.next {
+    position: absolute;
+    transition: .5s ease;
+    top: 45%;
+    right: 10%;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}

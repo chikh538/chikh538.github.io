@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    margin: 50px;
+    margin-top: 250px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Helvetica", serif;
+  color: white;
+  text-align: center;
+  margin-top: 520px;
+}
+
+.text:hover {
+  font-size: 30px;
+  font-family: "Helvetica", serif;
+  color: white;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+    blockquote {
+
+      color: white;
+      font-family: "Helvetica", serif;
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 30px;
+      margin-left: 880px;
+
+    }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.previous {
+    position: absolute;
+    transition: .5s ease;
+    top: 45%;
+    left: 10%;
+    background-color: #f1f1f1;
+    color: black;
+
+}
+
+.next {
+    position: absolute;
+    transition: .5s ease;
+    top: 45%;
+    right: 10%;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
