@@ -1,0 +1,174 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: white;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #d3eaff;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table {
+      top:45%;
+      background: #96ccff;
+      position: absolute;
+      left:30%;
+      width: 40%;
+      height: 50%;
+      -webkit-transform: skew(-60deg);
+        -moz-transform: skew(20deg);
+          -o-transform: skew(20deg);
+}
+
+.cylinder {
+  top: 60%;
+  background: #f2f2f2;
+  position: absolute;
+  left: 33%;
+  display: block;
+  height: 18%;
+  width: 10%;
+  z-index: 10;
+  border-radius:  60%   60%   40%  40% / 50%   50%   50%  50%;
+}
+
+.banana {
+  top: 53%;
+  width: 70%;
+  position: absolute;
+  left: 40%;
+  height: 10%;
+  border-radius: 22px;
+  box-shadow: 25px 0.1px 0 0 yellow;
+  transform: rotate(180deg);
+}
+
+.book-middle {
+  top:40%;
+  background: #FF4A0C;
+  position: absolute;
+  left: 60%;
+  width: 15%;
+  height: 10%;
+  z-index: 10;
+  -webkit-transform: skew(-60deg);
+   -moz-transform: skew(20deg);
+     -o-transform: skew(20deg);
+}
+
+.book-bottom {
+  top:50%;
+  background: #f2f2f2;
+  position: absolute;
+  left: 60%;
+  width: 15%;
+  height: 10%;
+  -webkit-transform: skew(-60deg);
+   -moz-transform: skew(20deg);
+     -o-transform: skew(20deg);
+}
+
+.vase {
+  top:25%;
+  background-color: #EDEFF2;    position: absolute;
+  left: 65%;
+  display:block;
+  width: 8vw;
+  height: 10vw;
+  z-index: 10;
+  -webkit-border-radius: 63vw 63vw 63vw 63vw / 108vw 108vw 72vw 72vw;
+  border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+.flower-stem {
+  top:20%;
+  background: #568026;
+  position: absolute;
+  left: 69%;
+  width: .8vw;
+  height: 3vw;
+}
+
+.flower-petal-1 {
+  top:17%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 68%;
+  width: .8vw;
+  height: 2vw;
+  transform: rotate(-20deg);
+}
+
+.flower-petal-2 {
+  top:17%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 69%;
+  width: .8vw;
+  height: 2vw;
+  transform: rotate(20deg);
+}
+
+.flower-petal-3 {
+  top:17%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 70%;
+  width: .8vw;
+  height: 2vw;
+  transform: rotate(40deg);
+}
+
+.book-blue-cover {
+  top:50%;
+  background: #254379;
+  position: absolute;
+  left: 52%;
+  width: 12%;
+  height: 28%;
+   -webkit-transform: skew(10deg);
+     -moz-transform: skew(10deg);
+       -o-transform: skew(10deg);
+}
+
+.stand-book {
+  top:40%;
+  background: #254379;
+  position: absolute;
+  left: 47%;
+  width: 12%;
+  height: 28%;
+  z-index: 20;
+}
+
+-webkit-transform: skew(10deg);
+  -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+
+
+/* undo this later
+.stand-book {
+    position: absolute;
+    border-bottom: 100px solid #004d99;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 51px;
+    width: 76px;
+    transform: rotate(270deg);
+    margin-left: 300px;
+    margin-top: 236px;
+}
+*/
