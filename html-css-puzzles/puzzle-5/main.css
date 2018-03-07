@@ -1,0 +1,64 @@
+/* Your styles go here */
+
+body {
+  background-color: #d1530a;
+  margin:50px;
+}
+
+
+
+.rectangle-1 {
+  position: absolute;
+	width: 92%;
+	height: 210px;
+	background: #ffc32b;
+}
+
+.rectangle-2 {
+  position: absolute;
+  margin-top: 210px;
+	width: 92%;
+	height: 110px;
+	background: #e0d5ce;
+}
+
+.rectangle-3 {
+  position: absolute;
+  margin-top: 320px;
+	width: 92%;
+	height: 200px;
+	background: black;
+}
+
+
+@media (max-width: 400px) {
+  body {
+    background-color: #2f2f72;
+    margin: 25px;
+  }
+  .rectangle-1 {
+    position: absolute;
+  	width: 350px;
+  	height: 360px;
+  	background: #3a0f22;
+  }
+
+  .rectangle-2 {
+    position: absolute;
+    margin-top: 300px;
+  	width: 350px;
+  	height: 90px;
+    z-index: 10;
+  	background: #4b6dcc;
+  }
+
+  .rectangle-3 {
+    position: absolute;
+    margin-top: 360px;
+  	width: 350px;
+  	height: 200px;
+  	background: #423f60;
+  }
+
+
+}
