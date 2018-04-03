@@ -1,0 +1,163 @@
+h1{
+  font-size: 15pt;
+  font-family: "Courier", sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+/* Flashing */
+.row figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-left: 120px;
+  margin-top: 40px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 60%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+.orange {
+  margin-left: 150px;
+  margin-top: 60px;
+  height: 200px;
+  width: 50%;
+  border:none;
+}
+
+
+.pear {
+  margin-left: 470px;
+  margin-top: -210px;
+  height: 200px;
+  width: 50%;
+}
+
+.pineapple {
+  margin-left: 770px;
+  margin-top: -230px;
+  height: 200px;
+  width: 50%;
+}
+
+.tangerine {
+  margin-left: 1050px;
+  margin-top: -190px;
+  height: 200px;
+  width: 50%;
+}
+
+.berries {
+  margin-left: 110px;
+  margin-top: -20px;
+  height: 200px;
+  width: 50%;
+}
+
+.bananas {
+  margin-left: 420px;
+  margin-top: -220px;
+  height: 200px;
+  width: 50%;
+}
+
+.melon {
+  margin-left: 720px;
+  margin-top: -180px;
+  height: 200px;
+  width: 50%;
+
+}
+
+.apple {
+  margin-left: 1070px;
+  margin-top: -240px;
+  height: 200px;
+  width: 50%;
+}
+
+.cherry {
+  margin-left: 160px;
+  margin-top: -20px;
+  height: 200px;
+  width: 50%;
+}
+
+.grape {
+  margin-left: 460px;
+  margin-top: -230px;
+  height: 200px;
+  width: 50%;
+}
+
+.kiwi {
+  margin-left: 740px;
+  margin-top: -190px;
+  height: 200px;
+  width: 50%;
+}
+
+.mango {
+  margin-left: 1070px;
+  margin-top: -180px;
+  height: 200px;
+  width: 50%;
+}

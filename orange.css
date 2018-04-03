@@ -1,0 +1,45 @@
+
+
+.orange {
+  margin-left:450px;
+  margin-top: 20px;
+  -ms-transform: scale(0.5,0.5); /* IE 9 */
+  -webkit-transform: scale(0.5,0.5); /* Safari */
+  transform: scale(0.5,0.5);
+  border:none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 20px;
+  margin-left: 180px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 20%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}

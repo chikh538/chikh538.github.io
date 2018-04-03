@@ -1,0 +1,50 @@
+.berries {
+  margin-left:410px;
+  margin-top: 20px;
+  -ms-transform: scale(0.5,0.5); /* IE 9 */
+  -webkit-transform: scale(0.5,0.5); /* Safari */
+  transform: scale(0.5,0.5);
+  border:none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-left: 70px;
+  margin-top: 40px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 60%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
