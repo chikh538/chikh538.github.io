@@ -1,0 +1,107 @@
+.bananas {
+  margin-left:420px;
+  margin-top: 20px;
+  -ms-transform: scale(0.5,0.5); /* IE 9 */
+  -webkit-transform: scale(0.5,0.5); /* Safari */
+  transform: scale(0.5,0.5);
+  border:none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 20px;
+  margin-left: 200px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 20%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.ball:hover {
+  cursor: pointer;
+  -webkit-animation: shake .1s;
+  animation-iteration-count: 2;
+  cursor: pointer;
+  -moz-animation: shake .1s;
+  animation-iteration-count: 2;
+  cursor: pointer;
+  -o-animation: shake .1s;
+  animation-iteration-count: 2;
+  cursor: pointer;
+  animation: shake .1s;
+  animation-iteration-count: 2;
+}
+
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(5deg);
+  }
+}
+
+@-moz-keyframes shake {
+  0%,
+  100% {
+    -moz-transform: rotate(-5deg);
+  }
+  50% {
+    -moz-transform: rotate(5deg);
+  }
+}
+
+@-o-keyframes shake {
+  0%,
+  100% {
+    -o-transform: rotate(-5deg);
+  }
+  50% {
+    -o-transform: rotate(5deg);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
