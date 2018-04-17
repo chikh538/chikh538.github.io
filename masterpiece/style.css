@@ -1,0 +1,231 @@
+h1{
+  font-size: 20pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  justify-content: margin-right;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 400pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  justify-content: margin-left;
+  margin-left: 280px;
+  margin-top: -150px;
+}
+
+h3{
+  font-size: 10pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  justify-content: margin-left;
+  margin-left: 60px;
+  margin-top: -80px;
+}
+
+#circle1 {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  z-index: -1;
+  margin-left: 200px;
+  position: relative;
+}
+
+.textanim-container1 {
+  position: relative;
+  max-width: 850px;
+  min-height: 850px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: -355px;
+}
+
+.textanim-title1 {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+  font-size: 400pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: -280px;
+}
+
+.textanim-container1:hover .textanim-title1 {
+  top: 10px;
+  transform: translateY(0);
+}
+
+.textanim-hidden1 {
+  position: absolute;
+  top: 1000px;
+  opacity: 0.5;
+  transition: 0.8s;
+  margin-left: 200px;
+  font-size: 20pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+.textanim-container1:hover .textanim-hidden1 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#circle2 {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  z-index: 2;
+  margin-left: 450px;
+  margin-top: -250px;
+  position: relative;
+}
+
+
+.textanim-container2 {
+  position: relative;
+  max-width: 1100px;
+  min-height: 950px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: -605px;
+}
+
+.textanim-title2 {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 35%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+  font-size: 400pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: -70px;
+}
+
+.textanim-container2:hover .textanim-title2 {
+  top: -100px;
+  transform: translateY(0);
+}
+
+.textanim-hidden2 {
+  position: absolute;
+  top: 1000px;
+  opacity: 0.5;
+  transition: 0.8s;
+  margin-left: 350px;
+  font-size: 20pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+.textanim-container2:hover .textanim-hidden2 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#circle3 {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  z-index: -1;
+  margin-left: 450px;
+  margin-top: -10px;
+  position: relative;
+}
+
+.textanim-container3 {
+  position: relative;
+  max-width: 1050px;
+  min-height: 950px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: -515px;
+}
+
+.textanim-title3 {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 23%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+  font-size: 400pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: -350px;
+}
+
+.textanim-container3:hover .textanim-title3 {
+  top: 10px;
+  transform: translateY(0);
+}
+
+.textanim-hidden3 {
+  position: absolute;
+  top: 1000px;
+  opacity: 0.5;
+  transition: 0.8s;
+  margin-left: 300px;
+  font-size: 20pt;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+.textanim-container3:hover .textanim-hidden3 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1920px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
