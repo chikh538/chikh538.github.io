@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document></title>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <div id="clickme">
+    Click the seagull to make it animate from the left side of the page toward the right side.
+  </div>
+  <img id="seagull" src="seagull.jpg" alt="" width="100" height="123"
+    style="position: relative; left: 10px;">
+
+
+
+</body>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#seagull").click(function() {
+      $('#seagull').animate({left: "+=1000"}, 2000);
+      // $(this).css('left', '200px');
+    // $("#seagull").animate({left: "-=300"}, 1000);
+});
+});
+
+function seagullLeft() {
+    $("#seagull").animate({left: "-=500"}, 2000, "swing", beeRight);
+}
+function seagullRight() {
+    $("#seagull").animate({left: "+=500"}, 2000, "swing", beeLeft);
+}
+
+seagullRight();
+
+</script>
+</html>
