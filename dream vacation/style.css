@@ -1,0 +1,122 @@
+.change {
+  height: 100vh;
+}
+
+.btn {
+    position: absolute;
+    top: 60%;
+    margin-left: 30%;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sans-serif;"Helvetica";
+    font-weight: bold;
+    border: 2pt;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+  top: 40%;
+  position: relative;
+  font-family: sans-serif;"Helvetica";
+  font-weight: bold;
+  font-size: 30pt;
+  color: white;
+  margin-left: 20%;
+
+}
+
+
+.img-pool-png {
+  width: 1000px;
+}
+
+.img-villa-png {
+  width: 1000px;
+}
+
+.img-palmtree-png {
+  width: 400px;
+}
+
+.img-floatie-png {
+  width: 300px;
+}
+
+.img-dog-png {
+  width: 120px;
+}
+
+.img-airplane-png {
+  width: 250px;
+}
+
+.img-yacht-png {
+  width: 300px;
+}
+
+.img-crab-png {
+  width: 100px;
+}
+
+.img-kayak-png {
+  width: 350px;
+}
+
+.img-chair-png {
+  width: 800px;
+}
+
+.img-clouds-png {
+  width: 1300px;
+}
+
+.img-coconut-png {
+  width: 250px;
+}
+
+.img-hammock-png {
+  width: 500px;
+}
+
+.img-sand-png {
+  width: 1400px;
+}
+
+.img-skydive-png {
+  width: 800px;
+}
+
+.img-ocean-png {
+  width: 1500px;
+}
+
+.img-surf-png {
+  width: 500px;
+}
+
+.img-grass-png {
+  width: 1200px;
+}
+
+.img-golf-png {
+  width: 150px;
+}
+
+.img-kite-png {
+  width: 150px;
+}
+
+.img-sun-png {
+  width: 350px;
+}
